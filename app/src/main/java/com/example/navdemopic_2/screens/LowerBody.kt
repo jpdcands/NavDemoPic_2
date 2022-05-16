@@ -1,6 +1,7 @@
 package com.example.navdemopic_2.screens
 
-import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Text
@@ -13,9 +14,10 @@ import androidx.navigation.NavHostController
 
 @Composable
 fun LowerBody(navController: NavHostController) {
-    Box(
+    Row(
         modifier = Modifier.fillMaxSize(),
-        contentAlignment = Alignment.Center
+        horizontalArrangement = Arrangement.Center,
+        verticalAlignment = Alignment.Top
 
     ) {
         Text(
@@ -26,3 +28,4 @@ fun LowerBody(navController: NavHostController) {
         )
     }
 }
+
