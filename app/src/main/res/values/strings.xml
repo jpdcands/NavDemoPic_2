@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NavDemoPic_2</string>
+    <string name="leg_press_techno">Leg Press-Techno</string>
+    <string name="leg_extension_techno">Leg Extension-Techno</string>
+    <string name="leg_curl_techno">Leg Curl-Techno</string>
+    <string name="leg_press_hoist">Leg Press-Hoist</string>
 </resources>
