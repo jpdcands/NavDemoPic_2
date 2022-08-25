@@ -4,4 +4,6 @@
     <string name="leg_extension_techno">Leg Extension-Techno</string>
     <string name="leg_curl_techno">Leg Curl-Techno</string>
     <string name="leg_press_hoist">Leg Press-Hoist</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

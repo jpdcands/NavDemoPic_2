@@ -8,7 +8,6 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Color.Companion.Green
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -36,7 +35,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen() {
-
     val navController = rememberNavController()
 
     NavHost(
@@ -49,7 +47,7 @@ fun MainScreen() {
         composable(NavRoutes.UpperBody.route) {
             UpperBody(navController = navController)
         }
-        composable(NavRoutes.LowerBody.route) {
+      composable(NavRoutes.LowerBody.route) {
             LowerBody(navController = navController)
         }
         composable(NavRoutes.Cardio.route) {
@@ -64,8 +62,13 @@ fun MainScreen() {
         composable(NavRoutes.Other.route) {
             Other(navController = navController)
         }
+      //  composable(NavRoutes.LegPress_Techno.route) {
+      //      Leg_Press_Techno(navController = navController)
+        }
+
+
     }
-}
+
 
 @Preview(showBackground = true)
 @Composable
