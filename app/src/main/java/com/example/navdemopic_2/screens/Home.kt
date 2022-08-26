@@ -52,7 +52,7 @@ fun Home(navController: NavHostController) {
                 .padding(16.dp)
                 .width(400.dp)
                 .height(250.dp)
-                .clip(RoundedCornerShape(40.dp))
+                .clip(shape = RoundedCornerShape(30.dp))
         )
 
         Row(

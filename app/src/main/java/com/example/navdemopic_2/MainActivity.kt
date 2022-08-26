@@ -47,7 +47,7 @@ fun MainScreen() {
         composable(NavRoutes.UpperBody.route) {
             UpperBody(navController = navController)
         }
-      composable(NavRoutes.LowerBody.route) {
+        composable(NavRoutes.LowerBody.route) {
             LowerBody(navController = navController)
         }
         composable(NavRoutes.Cardio.route) {
@@ -62,18 +62,19 @@ fun MainScreen() {
         composable(NavRoutes.Other.route) {
             Other(navController = navController)
         }
-      //  composable(NavRoutes.LegPress_Techno.route) {
-      //      Leg_Press_Techno(navController = navController)
+        composable(NavRoutes.LegPressTechno.route) {
+            LegPressTechno(navController = navController)
         }
 
 
     }
 
 
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    NavDemoPic_2Theme {
-        MainScreen()
+    @Preview(showBackground = true)
+    @Composable
+    fun DefaultPreview() {
+        NavDemoPic_2Theme {
+            MainScreen()
+        }
     }
 }

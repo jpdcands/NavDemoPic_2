@@ -4,7 +4,7 @@ sealed class NavRoutes(val route: String) {
     object Home : NavRoutes("home")
     object UpperBody : NavRoutes("upperbody")
     object LowerBody : NavRoutes("lowerbody")
-    object LegPress_Techno : NavRoutes("legpress_techno")
+    object LegPressTechno : NavRoutes("legpresstechno")
     object Cardio : NavRoutes("cardio")
     object Balance : NavRoutes("balance")
     object Abs : NavRoutes("abs")
